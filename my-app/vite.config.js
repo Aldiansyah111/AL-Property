@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // ✅ sangat penting untuk deploy di root domain (Netlify)
+  base: '/',// ✅ sangat penting untuk deploy di root domain (Netlify)
   plugins: [react(), tailwindcss()],
 })
